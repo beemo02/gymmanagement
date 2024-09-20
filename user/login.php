@@ -69,10 +69,12 @@ include_once "../include/header.php";
         <div class="col-12 col-md-6 bg-dark text-light">
           <div class="d-flex align-items-center justify-content-center h-100">
             <div class="col-10 col-xl-8 py-3">
-              <img class="img-fluid rounded" loading="lazy" src="../include/images/gymlogo.jpg" width="245" height="80" alt="BootstrapBrain Logo">
-              <hr class="border-primary-subtle mb-4">
-              <h2 class="h1 mb-4">Transform your body, transform your life.</h2>
-              <p class="lead m-0">Evolve your fitness game.</p>
+                <div class="d-flex align-items-center justify-content-center">
+                    <img class="img-fluid rounded" loading="lazy" src="../include/images/gymlogo.jpg" width="245" height="80" alt="BootstrapBrain Logo">
+                </div>
+                <hr class="border-primary-subtle mb-4">
+                <h2 class="h1 mb-4">Transform your body, Transform your life.</h2>
+                <p class="lead m-0">Evolve your fitness game.</p>
             </div>
           </div>
         </div>

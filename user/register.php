@@ -67,7 +67,7 @@ include_once "../include/header.php";
     <div class="row">
       <div class="col-12 col-md-6  bg-dark text-light">
         <div class="d-flex flex-column justify-content-center h-100 p-3 p-md-4 p-xl-5">
-          <h3 class="m-0">Welcome!</h3>
+          <h3 class="m-0 fs-1">Welcome!</h3>
           <img class="img-fluid rounded mx-auto my-4" loading="lazy" src="../include/images/logogym.png" width="1000" height="1000" alt="BootstrapBrain Logo">
         </div>
       </div>
