@@ -1,5 +1,9 @@
 <?php
+
 session_start();
+
+
+
 $pagetitle = isset($pagetitle) ? $pagetitle : "Document";
 
 ?>
@@ -27,7 +31,7 @@ $pagetitle = isset($pagetitle) ? $pagetitle : "Document";
         <div class=" collapse navbar-collapse " id="navbarNavDropdown">
           <ul class="navbar-nav mx-auto ">
             <li class="nav-item">
-              <a class="nav-link mx-2 active" aria-current="page" href="#">Home</a>
+              <a class="nav-link mx-2 active" aria-current="page" href="index.php">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link mx-2" href="#">Contact</a>
@@ -40,15 +44,22 @@ $pagetitle = isset($pagetitle) ? $pagetitle : "Document";
             <li class="nav-item">
               <a class="nav-link mx-2" href="#">Packages</a>
             </li>
+            <?php if(strlen($_SESSION['uid'] == 0)): ?> 
             <li class="nav-item">
               <a class="nav-link mx-2" href="#">Package History</a>
             </li>
+            <?php else : ?>
+              <li class="nav-item">
+                <a class="nav-link mx-2" href="#">Admin</a>
+              </li>
+            <?php endif; ?>
           </ul>
 
           <?php if($_SESSION['uid'] == 0): ?>
-            <a class="nav-link mx-2 active text-light" aria-current="page" href="../user/login.php">Login <span>-></span></a>
-          <?php else: ?>
-            <a class="nav-link mx-2 active text-light" aria-current="page" href="../user/logout.php">Logout <span>-></span></a>
+             <a class="nav-link mx-2 active text-light" aria-current="page" href="../user/login.php"><img src="../include/images/workout.png" alt="user icon" height="40">Login</span></a>
+            
+            <?php else: ?>
+            <a class="nav-link mx-2 active text-light" aria-current="page" href="../user/logout.php">Logout</span></a>
           <?php endif; ?>
         </div>
       </div>

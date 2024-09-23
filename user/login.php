@@ -24,7 +24,7 @@ function login($email, $password) {
         $row = $stmt->fetch(PDO::FETCH_ASSOC);
         if ($stmt->rowCount() == 1 && password_verify($password, $row['password'])) {
             session_regenerate_id(true); 
-            $_SESSION['uid'] = $row['id'];
+            $_SESSION['uid'] = $row['user_id'];
             $_SESSION['email'] = $row['email'];
             header("Location: index.php");
             exit();
@@ -69,7 +69,7 @@ include_once "../include/header.php";
         <div class="col-12 col-md-6 bg-dark text-light">
           <div class="d-flex align-items-center justify-content-center h-100">
             <div class="col-10 col-xl-8 py-3">
-                <div class="d-flex align-items-center justify-content-center">
+                <div class="d-flex  justify-content-center">
                     <img class="img-fluid rounded" loading="lazy" src="../include/images/gymlogo.jpg" width="245" height="80" alt="BootstrapBrain Logo">
                 </div>
                 <hr class="border-primary-subtle mb-4">
@@ -88,6 +88,12 @@ include_once "../include/header.php";
               </div>
             </div>
             <form action="login.php" method="POST">
+            <?php if($msg){ ?>
+            <div class="alert alert-danger" role="alert">
+                <?= $msg; ?>
+                
+            </div>
+            <?php } ?>
               <div class="row gy-3 gy-md-4 overflow-hidden">
                 <div class="col-12">
                   <label for="email" class="form-label">Email <span class="text-danger">*</span></label>
