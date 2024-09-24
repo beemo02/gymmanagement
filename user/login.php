@@ -3,6 +3,7 @@
 session_start();
 require_once '../include/db.php';
 
+
 $msg = "";
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $email = $_POST['email'];
@@ -25,8 +26,9 @@ function login($email, $password) {
         if ($stmt->rowCount() == 1 && password_verify($password, $row['password'])) {
             session_regenerate_id(true); 
             $_SESSION['uid'] = $row['user_id'];
+            $_SESSION['fname'] = $row['first_name'];
             $_SESSION['email'] = $row['email'];
-            header("Location: index.php");
+            header("Location: ../gymlife-master/index.php");
             exit();
         } else {
             $msg = "Invalid username or password.";
@@ -63,7 +65,7 @@ include_once "../include/header.php";
 
    
 <section class="p-3 p-md-4 p-xl-5">
-  <div class="container">
+  <div class="container h-100">
     <div class="card border-light-subtle shadow-sm">
       <div class="row g-0">
         <div class="col-12 col-md-6 bg-dark text-light">
