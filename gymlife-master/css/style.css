@@ -38,6 +38,7 @@ body {
 	font-family: "Muli", sans-serif;
 	-webkit-font-smoothing: antialiased;
 	font-smoothing: antialiased;
+	
 }
 
 h1,
@@ -784,7 +785,7 @@ ol {
 }
 
 .ps-item:hover {
-	background: #ffffff;
+	background: white;
 	border-color: #ffffff;
 }
 
@@ -802,7 +803,7 @@ ol {
 }
 
 .ps-item:hover .primary-btn.pricing-btn {
-	background: #f36100;
+	background: #c4110b;
 }
 
 .ps-item:hover .thumb-icon {
@@ -829,7 +830,7 @@ ol {
 
 .ps-item .pi-price h2 {
 	font-size: 60px;
-	color: #f36100;
+	color: #c4110b;
 	font-weight: 600;
 }
 

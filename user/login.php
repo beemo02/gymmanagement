@@ -64,11 +64,11 @@ include_once "../include/header.php";
 
 
    
-<section class="p-3 p-md-4 p-xl-5">
-  <div class="container h-100">
+<section class="p-3 p-md-4 p-xl-5" style="background: black">
+  <div class="container" style="margin-top: 70px">
     <div class="card border-light-subtle shadow-sm">
       <div class="row g-0">
-        <div class="col-12 col-md-6 bg-dark text-light">
+        <div class="col-12 col-md-6 bg-dark text-light h-80">
           <div class="d-flex align-items-center justify-content-center h-100">
             <div class="col-10 col-xl-8 py-3">
                 <div class="d-flex  justify-content-center">
