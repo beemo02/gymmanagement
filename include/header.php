@@ -37,6 +37,7 @@ include_once "../include/db.php";
     <link rel="stylesheet" href="../gymlife-master/css/magnific-popup.css" type="text/css">
     <link rel="stylesheet" href="../gymlife-master/css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="../gymlife-master/css/style.css" type="text/css">
+    <link rel="stylesheet" href="../gymlife-master/css/newstyle.css" type="text/css">
 </head>
 
 <body>
@@ -56,7 +57,7 @@ include_once "../include/db.php";
         </div>
         <nav class="canvas-menu mobile-menu">
             <ul>
-                <li><a href="./index.php">Home</a></li>
+                <li><a href="index.php">Home</a></li>
                 <li><a href="./about-us.html">About Us</a></li>
                 <li><a href="./classes.html">Classes</a></li>
                 <li><a href="./services.html">Services</a></li>
@@ -91,7 +92,7 @@ include_once "../include/db.php";
             <div class="row">
                 <div class="col-lg-3">
                     <div class="logo">
-                        <a href="./index.html">
+                        <a href="index.php">
                             <img src="../gymlife-master/img/logo.png" alt="">
                         </a>
                     </div>
@@ -99,7 +100,7 @@ include_once "../include/db.php";
                 <div class="col-lg-6">
                     <nav class="nav-menu">
                         <ul>
-                            <li class="active"><a href="./index.php">Home</a></li>
+                            <li class="active"><a href="../gymlife-master/index.php">Home</a></li>
                             <li><a href="./about-us.html">About Us</a></li>
                             <li><a href="./class-details.html">Classes</a></li>
                             <li><a href="./services.html">Services</a></li>

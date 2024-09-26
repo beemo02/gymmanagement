@@ -1,0 +1,79 @@
+.book-section {
+    background-color: rgb(44, 43, 43);
+}
+
+.booking-container {
+    margin-top: 50px;
+}
+
+.booksection-title.booking-title {
+  text-align: left;
+  color: #c4110b;
+  padding-bottom: 30px;
+}
+
+.booksection-title.booking-title .booktitle-phrase {
+    color: #c4110b;
+}
+
+.booking-widget .bw-text {
+    overflow: hidden;
+    margin-bottom: 35px;
+    display: flex;
+    gap: 30px;
+    
+}
+
+
+
+.booking-widget .bw-text i {
+    font-size: 30px;
+    color: white;
+    height:60px;
+    width: 60px;
+    background: rgb(85, 81, 81);
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.booking-widget .bw-text p {
+	overflow: hidden;
+	color: white;
+	margin-bottom: 0;
+	padding-top: 10px;
+}
+
+.booking-widget .bw-text ul {
+	overflow: hidden;
+	padding-top: 20px;
+}
+
+.booking-widget .bw-text ul li {
+	list-style: none;
+	font-size: 14px;
+	color: white;
+	margin-right: 25px;
+	display: inline-block;
+	position: relative;
+}
+.leave-comment .book-form-label{
+    font-size: 20px;
+    color: red;
+}
+
+.leave-comment .confirm-booking-button {
+    background-color: white;
+    color: rgb(36, 35, 35);
+}
+
+.confirm-booking-button:hover {
+    background-color: rgb(170, 10, 10);
+    color: white;
+    font-size: 20px;
+}
+
+
+
