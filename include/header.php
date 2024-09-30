@@ -14,30 +14,30 @@ include_once "../include/db.php";
 <html lang="zxx">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="description" content="Gym Template">
-    <meta name="keywords" content="Gym, unica, creative, html">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Gym | Template</title>
+<meta charset="UTF-8">
+<meta name="description" content="Gym Template">
+<meta name="keywords" content="Gym, unica, creative, html">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Gym | Template</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    
+<!-- Bootstrap CSS (4.5.2) -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css?family=Muli:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700&display=swap" rel="stylesheet">
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css?family=Muli:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700&display=swap" rel="stylesheet">
 
-    <!-- Css Styles -->
-    <link rel="stylesheet" href="../gymlife-master/css/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="../gymlife-master/css/font-awesome.min.css" type="text/css">
-    <link rel="stylesheet" href="../gymlife-master/css/flaticon.css" type="text/css">
-    <link rel="stylesheet" href="../gymlife-master/css/owl.carousel.min.css" type="text/css">
-    <link rel="stylesheet" href="../gymlife-master/css/barfiller.css" type="text/css">
-    <link rel="stylesheet" href="../gymlife-master/css/magnific-popup.css" type="text/css">
-    <link rel="stylesheet" href="../gymlife-master/css/slicknav.min.css" type="text/css">
-    <link rel="stylesheet" href="../gymlife-master/css/style.css" type="text/css">
-    <link rel="stylesheet" href="../gymlife-master/css/newstyle.css" type="text/css">
+<!-- Custom CSS Styles -->
+<link rel="stylesheet" href="../gymlife-master/css/font-awesome.min.css" type="text/css">
+<link rel="stylesheet" href="../gymlife-master/css/flaticon.css" type="text/css">
+<link rel="stylesheet" href="../gymlife-master/css/owl.carousel.min.css" type="text/css">
+<link rel="stylesheet" href="../gymlife-master/css/barfiller.css" type="text/css">
+<link rel="stylesheet" href="../gymlife-master/css/magnific-popup.css" type="text/css">
+<link rel="stylesheet" href="../gymlife-master/css/slicknav.min.css" type="text/css">
+<link rel="stylesheet" href="../gymlife-master/css/style.css" type="text/css">
+<link rel="stylesheet" href="../gymlife-master/css/newstyle.css" type="text/css">
+
 </head>
 
 <body>

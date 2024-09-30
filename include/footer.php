@@ -85,15 +85,24 @@
     <!-- Search model end -->
 
     <!-- Js Plugins -->
-    <script src="../gymlife-master/js/jquery-3.3.1.min.js"></script>
-    <script src="../gymlife-master/js/bootstrap.min.js"></script>
-    <script src="../gymlife-master/js/jquery.magnific-popup.min.js"></script>
-    <script src="../gymlife-master/js/masonry.pkgd.min.js"></script>
-    <script src="../gymlife-master/js/jquery.barfiller.js"></script>
-    <script src="../gymlife-master/js/jquery.slicknav.js"></script>
-    <script src="../gymlife-master/js/owl.carousel.min.js"></script>
-    <script src="../gymlife-master/js/main.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- jQuery 3.3.1 -->
+<script src="../gymlife-master/js/jquery-3.3.1.min.js"></script>
+
+<!-- Popper.js (required for Bootstrap 4.5.2) -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+
+<!-- Bootstrap 4.5.2 JS -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<!-- Other JavaScript Plugins -->
+<script src="../gymlife-master/js/jquery.magnific-popup.min.js"></script>
+<script src="../gymlife-master/js/masonry.pkgd.min.js"></script>
+<script src="../gymlife-master/js/jquery.barfiller.js"></script>
+<script src="../gymlife-master/js/jquery.slicknav.js"></script>
+<script src="../gymlife-master/js/owl.carousel.min.js"></script>
+
+<!-- Main JS (your custom scripts) -->
+<script src="../gymlife-master/js/main.js"></script>
 
 
 

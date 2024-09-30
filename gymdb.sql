@@ -69,3 +69,22 @@ CREATE TABLE user (
     updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 );
 
+
+-- Table: trainer
+
+CREATE TABLE trainer (
+    trainer_id INT PRIMARY KEY AUTO_INCREMENT,
+    trainer_name VARCHAR(100) NOT NULL,
+    specialization VARCHAR(100) NOT NULL,
+    
+)
+
+CREATE TABLE appoinments (
+    appointment_id INT PRIMARY KEY AUTO_INCREMENT,
+    user_id INT,
+    trainer_id INT, 
+    appoiment_date DATETIME,
+    FOREIGN KEY (user_id) REFERENCES user(user_id),
+    FOREIGN KEY (trainer_id) REFERENCES trainer(trainer_id)
+)
+
