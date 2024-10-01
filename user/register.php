@@ -42,9 +42,8 @@ function register($fname, $lname, $email, $password, $phone, $created_at)
     $lastInsertId = $dbh->lastInsertId();
     
     if ($lastInsertId) {
-        echo "Registered Successfully";
-        header("Location: login.php");
-        exit();
+        echo "<script> alert('Registered Successfully') </script>";
+        
     } else {
         echo "Registration failed. Please try again.";
     }

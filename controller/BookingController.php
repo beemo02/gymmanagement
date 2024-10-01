@@ -38,6 +38,8 @@ class BookingController {
             if($bookingSuccess)
             {
                 echo "<script> alert('Booking Successful. Please Confirm for the payment'); </script>";
+                unset($_SESSION['form_token']);
+                $_SESSION['form_token'] = bin2hex(random_bytes(32)); 
             }else
             {
                 echo "<script> alert('Booking unsuccessful'); </script>";
