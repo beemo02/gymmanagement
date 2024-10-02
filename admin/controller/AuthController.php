@@ -1,7 +1,7 @@
 <?php
 
-require_once "../../include/db.php";
-include_once "../model/Admin.php";
+
+require_once "../admin/model/Admin.php";
 
 // Enable error reporting
 ini_set('display_errors', 1);
@@ -9,15 +9,12 @@ ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
 class AuthController {
-    private $conn;
+    
     private $admin;
 
     public function __construct()
     {
-        global $dbh;
-        
-        $this->conn = $dbh;
-        $this->admin = new Admin($this->conn);
+        $this->admin = new Admin();
     }
 
     public function login(){
@@ -51,6 +48,7 @@ class AuthController {
 
         
         $registerSuccess = $this->admin->register($uname, $password, $cpassword, $email, $phone);
+
 
         
         if ($registerSuccess) {
